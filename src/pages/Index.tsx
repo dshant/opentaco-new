@@ -37,25 +37,6 @@ const features = [
   },
 ];
 
-import architectureImg from "@/assets/architecture.png";
-import logoUber from "@/assets/logos/uber.png";
-import logoDecathlon from "@/assets/logos/decathlon.png";
-import logoHardrock from "@/assets/logos/hardrock.png";
-import logoTigris from "@/assets/logos/tigris.png";
-import logoHpe from "@/assets/logos/hpe.png";
-import logoCheckatrade from "@/assets/logos/checkatrade.png";
-import logoUrbn from "@/assets/logos/urbn.png";
-
-const logos = [
-  { src: logoUber, alt: "Uber" },
-  { src: logoDecathlon, alt: "Decathlon" },
-  { src: logoHardrock, alt: "Hard Rock" },
-  { src: logoTigris, alt: "Tigris" },
-  { src: logoHpe, alt: "HP Enterprise" },
-  { src: logoCheckatrade, alt: "Checkatrade" },
-  { src: logoUrbn, alt: "URBN" },
-];
-
 const LandingPage = () => {
   return (
     <div className="min-h-screen bg-background text-foreground">
