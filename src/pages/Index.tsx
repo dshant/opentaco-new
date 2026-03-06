@@ -46,21 +46,22 @@ const LandingPage = () => {
       <nav className="mx-auto flex max-w-[994px] items-center justify-between px-10 py-6 max-sm:px-5">
         <span
           className="glitch-logo font-mono text-[15px] font-medium tracking-tight text-foreground"
-          data-text="opentaco"
+          data-text="digger"
         >
           <a
-            href="/"
+            href="https://digger.dev"
             className="font-display text-lg font-medium tracking-tight text-foreground logo-ai-hover cursor-pointer no-underline"
             data-text="digger"
           >
             digger
           </a>{" "}
-          / opentaco
+          / <a href="/" className="font-display text-lg font-medium tracking-tight text-foreground logo-ai-hover cursor-pointer no-underline" data-text="opentaco">opentaco</a>
         </span>
         <div className="flex gap-6">
           <a
             href="https://docs.opentaco.dev"
             className="font-sans text-sm text-muted-foreground transition-colors hover:text-foreground"
+            target="_blank"
           >
             docs
           </a>
@@ -208,7 +209,7 @@ const LandingPage = () => {
         >
           <div className="flex flex-wrap items-center gap-3">
             <a
-              href="https://docs.opentaco.dev"
+              href="https://otaco.app/"
               className="inline-block rounded-md border border-primary bg-primary px-7 py-3 text-sm font-medium text-primary-foreground transition-colors hover:bg-foreground/90"
             >
               Get started
@@ -232,7 +233,7 @@ const LandingPage = () => {
           © 2026 opentaco by{" "}
           <span className="underline">
             <a
-              href="/"
+              href="https://digger.dev"
               data-text="digger"
             >
               digger
