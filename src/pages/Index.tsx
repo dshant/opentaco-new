@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 import { Github } from "lucide-react";
 
+import architectureImg from "@/assets/architecture.png";
+
 const fadeUp = {
   hidden: { opacity: 0, y: 16 },
   visible: (i: number) => ({
